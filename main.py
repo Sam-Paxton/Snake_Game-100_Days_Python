@@ -18,6 +18,7 @@ screen.onkey(snek.right, "Right")
 screen.update()
 
 
+
 game_on = True
 while game_on:
     snek.move()
