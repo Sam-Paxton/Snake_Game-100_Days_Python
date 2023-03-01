@@ -17,7 +17,8 @@ class Food(Turtle):
         
     def move_rand(self):
         '''No parameters.
-            Returns random (x,y) coordinates between -280 and 280
+            Moves food to random (x,y) coordinates between -280 and 280
+            No Return.
         '''
         self.goto(
             random.randint(-280, 280), 
